@@ -1,0 +1,1347 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <title>Refúgio da Tia Rê - Amor Salva Vidas</title>
+
+  <!-- Meta Tags SEO -->
+  <meta name="description" content="Fundação dedicado ao resgate de cães e gatos em Suzano-SP Faça sua doação PIX e ajude a salvar vidas!">
+  <meta name="keywords" content="Fundação animais, doação cães, doação gatos, resgate animal, Suzano SP, PIX doação, adoção responsável">
+  <meta name="author" content="Refúgio da Tia Rê">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.gritoanimal.fun/pagina/">
+  <meta property="og:title" content="Refúgio da Tia Rê - Amor Salva Vidas">
+  <meta property="og:description" content="Fundação com 11 anos de dedicação!">
+  <meta property="og:image" content="images/bannernovo_1.webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/logosemfundo.png">
+  <link rel="apple-touch-icon" href="images/logosemfundo.png">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://www.gritoanimal.fun/pagina/">
+
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#FF8B3D">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Preload de imagens críticas -->
+  <link rel="preload" as="image" href="/pagina/images/logosemfundo.png" fetchpriority="high">
+  <link rel="preload" as="image" href="/pagina/images/bannernovo.webp" fetchpriority="high">
+
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+<script>
+  window.pixelId = "69fefa45a4c98ce1ea50674e";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+
+  <script src="js/latest.js" data-utmify-prevent-xcod-sck="" data-utmify-prevent-subids="" async="" defer=""></script>
+  <script src="js/player.js" async=""></script>
+</head>
+
+<body>
+  <!-- Banner Principal -->
+  <section class="banner-section">
+    <div class="banner-container">
+      <img src="images/bannernovo.webp" alt="Banner Refúgio da Tia Rê" class="banner-image loaded" loading="eager" fetchpriority="high" decoding="sync">
+    </div>
+  </section>
+
+  <main class="main-content">
+    
+    <!-- Seção de Vídeo -->
+    <section class="video-section" style="padding: 30px 15px 10px 15px; display: flex; justify-content: center;">
+      <div class="container" style="max-width: 600px; width: 100%;">
+        <div class="video-wrapper" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
+          
+          <!-- Note que eu tirei a palavra "controls" daqui -->
+          <video id="meuVideo" preload="metadata" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;" poster="images/sua-thumbnail.PNG">
+            <source src="images/vsl.mp4" type="video/mp4">
+            Seu navegador não suporta a visualização deste vídeo.
+          </video>
+
+          <!-- Botão de Play Centralizado -->
+          <div id="playOverlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: rgba(0, 0, 0, 0.1); cursor: pointer; z-index: 10;" onclick="playVsl()">
+            <div style="width: 80px; height: 80px; background-color: rgba(0, 0, 0, 0.7); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: transform 0.2s;">
+              <!-- Ícone de Play -->
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="white" style="margin-left: 5px;">
+                <path d="M5 3L19 12L5 21V3Z"></path>
+              </svg>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Script para disparar o vídeo ao clicar no botão -->
+    <script>
+      function playVsl() {
+        var video = document.getElementById("meuVideo");
+        var overlay = document.getElementById("playOverlay");
+        
+        // Adiciona a barra de controles nativa do navegador apenas agora
+        video.setAttribute("controls", "controls");
+        
+        video.play();
+        overlay.style.display = "none"; // Esconde o botão grande após o clique
+      }
+    </script>
+    
+    <!-- Botão Quero Ajudar após VSL -->
+<div class="video-cta-container">
+  <button class="video-cta-btn heartbeat-animation" type="button" onclick="document.querySelector('.donation-goal-section').scrollIntoView({ behavior: 'smooth', block: 'center' });">
+    QUERO AJUDAR ❤️
+  </button>
+</div>
+
+   <!-- Seção Meta de Doação (Responsivo para Mobile) -->
+    <style>
+      .donation-card-exact {
+        background: #fdfdfd;
+        border-radius: 14px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        padding: 30px 20px 20px 20px;
+        width: 100%; /* Garante que ocupe o espaço corretamente no mobile */
+        max-width: 380px;
+        box-sizing: border-box; /* Impede que o padding quebre a tela */
+        margin: 0 auto;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        text-align: center;
+        border-top: 6px solid #25d366; 
+      }
+
+      /* Garante que todos os elementos internos respeitem os limites */
+      .donation-card-exact * {
+        box-sizing: border-box;
+      }
+
+      .donation-card-exact h2 {
+        font-size: 21px;
+        font-weight: 700;
+        color: #111;
+        margin: 0 0 15px 0;
+        line-height: 1.3;
+      }
+
+      .donation-card-exact .subtitle {
+        font-size: 14px;
+        color: #555;
+        margin: 0 0 25px 0;
+        line-height: 1.4;
+      }
+
+      .donation-card-exact .meta-info {
+        font-size: 14px;
+        color: #333;
+        margin: 0 0 20px 0;
+        line-height: 1.5;
+      }
+
+      .donation-grid-exact {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        margin-bottom: 20px;
+      }
+
+      .btn-opt {
+        background: #f6f6f6; 
+        border: 1px solid #dcdcdc;
+        border-radius: 8px;
+        padding: 12px 0;
+        font-size: 14px;
+        font-weight: 600;
+        color: #333;
+        cursor: pointer;
+        position: relative;
+        transition: all 0.2s;
+        width: 100%;
+      }
+
+      .btn-opt.active {
+        border: 2px solid #25d366; 
+        background-color: #eefbf3; 
+        color: #25d366;
+        padding: 11px 0; 
+      }
+
+      .badge-mais {
+        position: absolute;
+        top: -11px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #25d366; 
+        color: #fff;
+        font-size: 9px;
+        font-weight: 700;
+        padding: 4px 8px;
+        border-radius: 12px;
+        white-space: nowrap;
+        letter-spacing: 0.5px;
+        box-shadow: 0 2px 4px rgba(37, 211, 102, 0.3);
+      }
+
+      .btn-contribuir-exact {
+        background: #25d366; 
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        width: 100%;
+        padding: 15px;
+        font-size: 15px;
+        font-weight: 700;
+        cursor: pointer;
+        margin-bottom: 12px;
+        transition: background 0.2s;
+        box-shadow: 0 4px 12px rgba(37, 211, 102, 0.2);
+      }
+
+      .btn-contribuir-exact:hover {
+        background: #1ebc59; 
+      }
+
+      .footer-txt {
+        font-size: 13px;
+        color: #666;
+        margin: 0;
+      }
+
+      /* --- ADAPTAÇÃO PARA ECRÃS MAIS PEQUENOS (MOBILE) --- */
+      @media (max-width: 400px) {
+        .donation-card-exact {
+          padding: 25px 15px 15px 15px; /* Reduz o espaçamento lateral para caber melhor */
+        }
+        .donation-card-exact h2 {
+          font-size: 19px; /* Letra ligeiramente mais pequena */
+        }
+        .donation-card-exact .subtitle,
+        .donation-card-exact .meta-info {
+          font-size: 13px;
+        }
+        .donation-grid-exact {
+          gap: 6px; /* Diminui o espaço entre os botões para não apertar os números */
+        }
+        .btn-opt {
+          font-size: 13px;
+          padding: 10px 0;
+        }
+        .btn-opt.active {
+          padding: 9px 0;
+        }
+        .badge-mais {
+          font-size: 8px;
+          padding: 3px 6px;
+          top: -9px;
+        }
+        .btn-contribuir-exact {
+          font-size: 14px;
+          padding: 14px;
+        }
+      }
+      /* --- ESTILOS DO MODAL DE PAGAMENTO (FLUXO COMPLETO) --- */
+      .modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        display: none; 
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      }
+
+      .modal-box {
+        background: #ffffff;
+        border-radius: 12px;
+        width: 90%;
+        max-width: 360px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        animation: slideUp 0.3s ease-out;
+        display: flex;
+        flex-direction: column;
+      }
+
+      @keyframes slideUp {
+        from { transform: translateY(30px); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+      }
+
+      .modal-header {
+        background: #eaf8ef; /* Verde bem claro da imagem */
+        padding: 15px;
+        position: relative;
+        text-align: center;
+        border-bottom: 1px solid #e0e0e0;
+      }
+
+      .modal-logo {
+        height: 35px;
+        width: auto;
+        object-fit: contain;
+      }
+
+      .modal-close {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        cursor: pointer;
+        color: #777;
+        background: none;
+        border: none;
+        padding: 5px;
+      }
+
+      /* --- STEP 1: SELEÇÃO --- */
+      #step1 {
+        padding: 20px;
+        text-align: center;
+      }
+
+      .euro-circle {
+        width: 45px;
+        height: 45px;
+        background: #d4f2dc;
+        color: #25d366;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+        font-weight: 700;
+        margin: 0 auto 15px auto;
+      }
+
+      .modal-title {
+        font-size: 18px;
+        font-weight: 700;
+        color: #111;
+        margin: 0 0 8px 0;
+      }
+
+      .modal-subtitle {
+        font-size: 14px;
+        color: #444;
+        margin: 0 0 12px 0;
+      }
+
+      .value-box {
+        background: #f8f9f9;
+        border: 1px solid #eaeaea;
+        border-radius: 10px;
+        padding: 15px;
+        font-size: 22px;
+        font-weight: 800;
+        color: #25d366;
+        margin-bottom: 25px;
+      }
+
+      .payment-methods-title {
+        font-size: 13px;
+        font-weight: 700;
+        color: #333;
+        margin-bottom: 12px;
+      }
+
+      .payment-methods-grid {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+      }
+
+      .payment-card {
+        flex: 1;
+        background: #fff;
+        border: 1px solid #dcdcdc;
+        border-radius: 8px;
+        padding: 15px 10px;
+        cursor: pointer;
+        position: relative;
+        transition: all 0.2s;
+        text-align: center;
+      }
+
+      .payment-card.active {
+        background: #eefbf3;
+        border: 2px solid #25d366;
+        padding: 14px 9px;
+      }
+
+      .payment-card-icon {
+        margin-bottom: 8px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .payment-card-title {
+        font-size: 13px;
+        font-weight: 700;
+        color: #111;
+        margin-bottom: 4px;
+      }
+
+      .payment-card-desc {
+        font-size: 10px;
+        color: #777;
+        line-height: 1.3;
+      }
+
+      .check-icon-svg {
+        position: absolute;
+        top: 6px;
+        right: 6px;
+        width: 16px;
+        height: 16px;
+        background: #25d366;
+        border-radius: 50%;
+        display: none;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .payment-card.active .check-icon-svg {
+        display: flex;
+      }
+
+      .btn-continue {
+        background: #25d366;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        width: 100%;
+        padding: 14px;
+        font-size: 15px;
+        font-weight: 700;
+        cursor: pointer;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+      }
+
+      .modal-footer-txt {
+        font-size: 11px;
+        color: #999;
+        line-height: 1.5;
+      }
+
+      .modal-footer-txt .secure-line {
+        color: #444;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        margin-top: 4px;
+      }
+
+      /* --- STEP 2: LOADING --- */
+      #step2 {
+        padding: 40px 20px;
+        text-align: center;
+        background: #b5bbbc; /* Fundo cinza da imagem 2 */
+        min-height: 300px;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .spinner {
+        width: 45px;
+        height: 45px;
+        border: 4px solid #9fa4a5;
+        border-top: 4px solid #25d366;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin: 0 auto 20px auto;
+      }
+
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
+      #step2 h3 {
+        font-size: 18px;
+        color: #111;
+        margin: 0 0 10px 0;
+      }
+
+      #step2 p {
+        font-size: 13px;
+        color: #444;
+        margin: 0;
+      }
+
+      /* --- STEP 3: DADOS DE PAGAMENTO --- */
+      #step3 {
+        padding: 20px;
+        text-align: center;
+        display: none;
+      }
+
+      .dados-box {
+        border: 1px solid #eaeaea;
+        border-radius: 10px;
+        padding: 15px;
+        margin-bottom: 15px;
+        background: #fbfbfb;
+      }
+
+      .dado-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 12px;
+      }
+
+      .dado-row:last-child {
+        margin-bottom: 0;
+      }
+
+      .dado-label {
+        color: #666;
+        font-size: 13px;
+      }
+
+      .dado-valor {
+        color: #111;
+        font-weight: 700;
+        font-size: 14px;
+      }
+
+      .btn-copy {
+        background: #efefef;
+        color: #111;
+        border: none;
+        border-radius: 8px;
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+      }
+
+      .step3-footer {
+        font-size: 11px;
+        color: #777;
+        line-height: 1.4;
+      }
+
+      .step3-footer a {
+        color: #777;
+        text-decoration: underline;
+        display: block;
+        margin-top: 8px;
+        cursor: pointer;
+      }
+    </style>
+
+    <section class="donation-goal-section" style="padding: 40px 15px; background-color: #f0f0f0;">
+      <div class="container" style="display: flex; justify-content: center;">
+        <div class="donation-card-exact">
+          <h2>Junte-se a nós! Salve uma vida<br>hoje.</h2>
+          <p class="subtitle">Escolha um valor. Cada euro alimenta, trata e<br>protege.</p>
+          
+          <div class="meta-info">
+            Meta do mês: €2.000 para ração e veterinário<br>
+            64% — faltam €720 | 187 pessoas contribuíram
+          </div>
+
+          <div class="donation-grid-exact">
+            <button class="btn-opt" onclick="selectDonation(this)">€ 15</button>
+            <button class="btn-opt active" onclick="selectDonation(this)">
+              <span class="badge-mais">MAIS DOADO</span>
+              € 20
+            </button>
+            <button class="btn-opt" onclick="selectDonation(this)">€ 35</button>
+            <button class="btn-opt" onclick="selectDonation(this)">€ 50</button>
+            <button class="btn-opt" onclick="selectDonation(this)">€ 75</button>
+            <button class="btn-opt" onclick="selectDonation(this)">€ 100</button>
+          </div>
+
+          <button class="btn-contribuir-exact" onclick="abrirPagamento()">CONTRIBUIR</button>
+          <p class="footer-txt">Sem cadastro. Leva menos de 1 minuto.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Script Funcionalidade Doação e Modal -->
+    <script>
+      // 1. Seleciona o botão de valor
+      function selectDonation(clickedButton) {
+        const buttons = document.querySelectorAll('.btn-opt');
+        buttons.forEach(btn => {
+          btn.classList.remove('active');
+        });
+        clickedButton.classList.add('active');
+      }
+      
+      // 2. Abre o Modal e injeta o valor selecionado
+      function abrirPagamento() {
+        const botaoSelecionado = document.querySelector('.btn-opt.active');
+        let valorDoacao = '20'; // Valor padrão
+        if(botaoSelecionado) {
+          // Extrai o número e remove espaços
+          valorDoacao = botaoSelecionado.innerText.replace(/[^\d]/g, ''); 
+        }
+        
+        // Coloca o valor no formato "€ 15,00" dentro do modal
+        document.getElementById('modalSelectedValue').innerText = `€ ${valorDoacao},00`;
+        
+        // Abre o modal
+        document.getElementById('paymentModal').style.display = 'flex';
+      }
+
+      // 3. Fecha o Modal e repõe o estado inicial
+      function fecharModal() {
+        document.getElementById('paymentModal').style.display = 'none';
+        // Repõe steps
+        document.getElementById('step1').style.display = 'block';
+        document.getElementById('step2').style.display = 'none';
+        document.getElementById('step3').style.display = 'none';
+        // Limpa campos do pagador
+        var n = document.getElementById('payerName');
+        var p = document.getElementById('payerPhone');
+        if (n) n.value = '';
+        if (p) p.value = '';
+        window._mbReferenceValue = '';
+      }
+
+      // 4. Alterna entre MB WAY e Multibanco
+      function selecionarMetodo(element) {
+        const cards = document.querySelectorAll('.payment-card');
+        cards.forEach(card => card.classList.remove('active'));
+        element.classList.add('active');
+      }
+
+      // 5. Processa pagamento real via WayMB + UTMify
+      function iniciarProcessamento() {
+        const metodoEl = document.querySelector('.payment-card.active');
+        const metodo   = metodoEl ? metodoEl.getAttribute('data-method') : 'mbway';
+
+        const valorTexto = document.getElementById('modalSelectedValue').innerText;
+        const valor = parseFloat(valorTexto.replace(/[^\d,]/g, '').replace(',', '.'));
+
+        const nome     = (document.getElementById('payerName').value || '').trim();
+        const telefone = (document.getElementById('payerPhone').value || '').replace(/\D/g, '');
+
+        if (!nome) { alert('Por favor, indique o seu nome.'); return; }
+        if (telefone.length < 9) { alert('Por favor, indique um número de telemóvel válido (mínimo 9 dígitos).'); return; }
+        if (!valor || valor <= 0) { alert('Valor de doação inválido.'); return; }
+
+        // Mostrar loading
+        document.getElementById('step1').style.display = 'none';
+        document.getElementById('step2').style.display = 'flex';
+        document.getElementById('step3').style.display = 'none';
+
+        // Capturar UTMs da URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const utmKeys   = ['utm_source','utm_campaign','utm_medium','utm_content','utm_term'];
+        const utms      = {};
+        utmKeys.forEach(k => { const v = urlParams.get(k); if (v) utms[k] = v; });
+
+        fetch('/api/pagamento', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ amount: valor, method: metodo, name: nome, phone: telefone, email: '', ...utms })
+        })
+        .then(r => r.json())
+        .then(data => {
+          if (!data.success) throw new Error(data.error || 'Erro desconhecido');
+
+          document.getElementById('step2').style.display = 'none';
+          document.getElementById('step3').style.display = 'block';
+
+          const amountFmt = '€ ' + valor.toFixed(2).replace('.', ',');
+
+          if (metodo === 'mbway') {
+            document.getElementById('step3-mbway').style.display        = 'block';
+            document.getElementById('step3-multibanco').style.display   = 'none';
+            document.getElementById('mbwayAmountDisplay').textContent   = amountFmt;
+          } else {
+            document.getElementById('step3-mbway').style.display        = 'none';
+            document.getElementById('step3-multibanco').style.display   = 'block';
+            const ref = data.referenceData || {};
+            document.getElementById('mbEntity').textContent    = ref.entity    || '—';
+            document.getElementById('mbReference').textContent = ref.reference || '—';
+            document.getElementById('mbAmount').textContent    = amountFmt;
+            document.getElementById('mbExpiry').textContent    = ref.expiresAt || '—';
+            window._mbReferenceValue = ref.reference || '';
+          }
+        })
+        .catch(err => {
+          document.getElementById('step2').style.display = 'none';
+          document.getElementById('step1').style.display = 'block';
+          alert('Erro ao processar pagamento: ' + err.message + '\nPor favor, tente novamente.');
+        });
+      }
+
+      function copiarReferencia() {
+        const ref = (window._mbReferenceValue || document.getElementById('mbReference').textContent || '').replace(/\s/g, '');
+        if (!ref || ref === '—') return;
+        navigator.clipboard.writeText(ref).then(() => {
+          const btn = document.querySelector('#step3-multibanco .btn-copy');
+          if (!btn) return;
+          const original = btn.innerHTML;
+          btn.textContent = '✓ Copiado!';
+          setTimeout(() => { btn.innerHTML = original; }, 2000);
+        }).catch(() => {
+          prompt('Copie a referência:', ref);
+        });
+      }
+    </script>
+    
+    <!-- Seção Informações da Organização -->
+    <section class="organization-info-section">
+      <div class="container">
+        <div class="org-info-card">
+          <!-- Título centralizado com linha divisória -->
+          <div class="org-header" style="text-align: center; border-bottom: 1px solid #eaeaea; padding-bottom: 15px; margin-bottom: 15px;">
+            <h2 class="org-name" style="margin: 0;">Refúgio Tia Rê</h2>
+          </div>
+
+          <div class="org-info-wrapper">
+            <div class="org-info-content">
+              
+              <!-- Item 1: Missão -->
+              <div class="org-info-item" style="margin-bottom: 15px;">
+                <div class="org-info-text">
+                  <div class="org-info-label" style="text-transform: uppercase; font-weight: 700; font-size: 11px; letter-spacing: 0.5px; color: #555; margin-bottom: 4px;">MISSÃO</div>
+                  <div class="org-info-value" style="color: #e85d22; font-weight: 500; font-size: 14px;">Proteção e resgate animal desde 2012</div>
+                </div>
+              </div>
+
+              <!-- Item 2: Animais ao Cuidado -->
+              <div class="org-info-item">
+                <div class="org-info-text">
+                  <div class="org-info-label" style="text-transform: uppercase; font-weight: 700; font-size: 11px; letter-spacing: 0.5px; color: #555; margin-bottom: 4px;">ANIMAIS AO CUIDADO</div>
+                  <div class="org-info-value" style="color: #e85d22; font-weight: 500; font-size: 14px;">160+ cães e gatos</div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Logo -->
+            <div class="org-logo-circle">
+              <img src="images/logo.webp" alt="Logo Refúgio da Tia Rê" class="org-logo-img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Quem é a Refúgio da Tia Rê? -->
+    <section class="about-section">
+      <div class="container">
+        <h2 class="section-title">Quem é a Refúgio da Tia Rê?</h2>
+
+        <div class="about-carousel" id="aboutCarousel">
+          <div class="about-slide active">
+            <div class="about-slide-content">
+              <div class="about-slide-image">
+                <img src="images/cachorro.webp" alt="Nossa História" loading="lazy" decoding="async">
+              </div>
+              <div class="about-slide-text">
+                <h3>NOSSA HISTÓRIA</h3>
+                <p>Há mais de 14 anos, Tia Rê dedica a sua vida a salvar cães abandonados. Hoje, mas de 160 animais têm um lar seguro!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-slide">
+            <div class="about-slide-content">
+              <div class="about-slide-image">
+                <img src="images/obra.webp" alt="Espaço e Obra" loading="lazy" decoding="async">
+              </div>
+              <div class="about-slide-text">
+                <h3>ESPAÇO E OBRA</h3>
+                <p>Estamos construindo um abrigo digno para eles! Cada doação ajuda a avançar a obra e dar mais conforto e segurança.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-slide">
+            <div class="about-slide-content">
+              <div class="about-slide-image">
+                <img src="images/cachorros.webp" alt="Custos e Doações" loading="lazy" decoding="async">
+              </div>
+              <div class="about-slide-text">
+                <h3>CUSTOS E DOAÇÕES</h3>
+                <p>Manter 160 vidas exige alimento, cuidados veterinários e abrigo todos os dias. Sua ajuda mantém essa missão viva.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-controls">
+          <button class="about-btn prev" onclick="prevAbout()">‹</button>
+          <div class="about-indicators">
+            <span class="about-indicator active" onclick="goToAbout(0)"></span>
+            <span class="about-indicator" onclick="goToAbout(1)"></span>
+            <span class="about-indicator" onclick="goToAbout(2)"></span>
+          </div>
+          <button class="about-btn next" onclick="nextAbout()">›</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Impacto da Doação (Design Idêntico à Imagem) -->
+    <style>
+      .impact-donation-section {
+        padding: 40px 15px;
+        background-color: #f9f8f4; /* Cor de fundo suave do site */
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      }
+      .impact-title-wrapper {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .impact-title-wrapper h2 {
+        font-size: 22px;
+        font-weight: 700;
+        color: #333;
+        margin-bottom: 8px;
+      }
+      .impact-divider {
+        width: 60px;
+        height: 3px;
+        background: linear-gradient(to right, #f47b38, #25d366); /* Linha laranja e verde da imagem */
+        margin: 0 auto;
+        border-radius: 2px;
+      }
+      .impact-grid-exact {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        max-width: 500px;
+        margin: 0 auto;
+      }
+      .impact-item-exact {
+        background: #fff;
+        border-radius: 12px;
+        padding: 12px 15px;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      }
+      .impact-value-exact {
+        background: #f47b38; /* Laranja idêntico ao da imagem */
+        color: #fff;
+        font-weight: 600;
+        font-size: 14px;
+        padding: 8px 16px;
+        border-radius: 20px; /* Formato de pílula arredondada */
+        margin-right: 15px;
+        white-space: nowrap;
+        min-width: 65px;
+        text-align: center;
+      }
+      .impact-desc-exact {
+        font-size: 13px;
+        color: #444;
+        line-height: 1.4;
+      }
+    </style>
+
+    <section class="impact-donation-section">
+      <div class="container">
+        <div class="impact-title-wrapper">
+          <h2>Impacto da sua doação:</h2>
+          <div class="impact-divider"></div>
+        </div>
+        
+        <div class="impact-grid-exact">
+          <div class="impact-item-exact">
+            <span class="impact-value-exact">€ 5</span>
+            <span class="impact-desc-exact">Alimenta 1 animal por uma semana</span>
+          </div>
+          
+          <div class="impact-item-exact">
+            <span class="impact-value-exact">€ 10</span>
+            <span class="impact-desc-exact">Ração e medicamentos básicos para 2 animais por 10 dias</span>
+          </div>
+          
+          <div class="impact-item-exact">
+            <span class="impact-value-exact">€ 25</span>
+            <span class="impact-desc-exact">Compra 1 saco de ração de 10kg que alimenta 5 animais por um mês</span>
+          </div>
+          
+          <div class="impact-item-exact">
+            <span class="impact-value-exact">€ 50</span>
+            <span class="impact-desc-exact">Cobre vacinas e vermífugos para 4 animais resgatados</span>
+          </div>
+          
+          <div class="impact-item-exact">
+            <span class="impact-value-exact">€ 100</span>
+            <span class="impact-desc-exact">Oferece tratamento veterinário completo por um mês para 3 animais</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Histórias de Transformação -->
+    <section class="transformation-section">
+      <div class="container">
+        <h2 class="section-title">Resgates feitos por nós</h2>
+        <p class="transformation-subtitle">Estas são apenas algumas das centenas de animais que conseguimos resgatar e reabilitar graças ao amor e apoio de pessoas como você.</p>
+
+        <div class="transformation-carousel" id="transformationCarousel">
+          <div class="transformation-item active">
+            <div class="transformation-card">
+              <div class="transformation-content"><h3>Asteca</h3></div>
+              <div class="transformation-images">
+                <div class="before-after">
+                  <div class="image-container before">
+                    <img src="images/antes1.webp" alt="Asteca antes do resgate" loading="eager" decoding="async">
+                    <div class="image-label before-label">Antes</div>
+                  </div>
+                  <div class="image-container after">
+                    <img src="images/depois1.webp" alt="Asteca depois do resgate" loading="eager" decoding="async">
+                    <div class="image-label after-label">Depois</div>
+                  </div>
+                </div>
+              </div>
+              <div class="transformation-content">
+                <p>Asteca chegou ao fundação precisando de cuidados especiais. Com muito carinho e atenção da equipe, recuperou sua saúde e energia. Hoje é uma cadela radiante e cheia de vida, que encontrou uma família que a adora e cuida com todo amor e carinho.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="transformation-item">
+            <div class="transformation-card">
+              <div class="transformation-content"><h3>Luke</h3></div>
+              <div class="transformation-images">
+                <div class="before-after">
+                  <div class="image-container before">
+                    <img src="images/antes2.webp" alt="Luke antes do resgate" loading="eager" decoding="async">
+                    <div class="image-label before-label">Antes</div>
+                  </div>
+                  <div class="image-container after">
+                    <img src="images/depois2.webp" alt="Luke depois do resgate" loading="eager" decoding="async">
+                    <div class="image-label after-label">Depois</div>
+                  </div>
+                </div>
+              </div>
+              <div class="transformation-content">
+                <p>Luke chegou a fundação assustado e precisando de um ambiente seguro. Com muito carinho e atenção da equipe, teve uma melhora significativa. Este anjinho que passou por aqui deixou sua marca de amor no nosso coração. Infelizmente, hoje Chacal não está mais entre nós.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="transformation-item">
+            <div class="transformation-card">
+              <div class="transformation-content"><h3>Luna</h3></div>
+              <div class="transformation-images">
+                <div class="before-after">
+                  <div class="image-container before">
+                    <img src="images/antes3.webp" alt="Luna antes do resgate" loading="eager" decoding="async">
+                    <div class="image-label before-label">Antes</div>
+                  </div>
+                  <div class="image-container after">
+                    <img src="images/depois3.webp" alt="Luna depois do resgate" loading="eager" decoding="async">
+                    <div class="image-label after-label">Depois</div>
+                  </div>
+                </div>
+              </div>
+              <div class="transformation-content">
+                <p>Luna chegou tímida e precisando de um ambiente seguro. Com paciência e muito amor, ganhou confiança e se mostrou uma cadela super carinhosa. Hoje é uma cadela doce que adora receber carinho e brincar, encontrando na sua família o amor que sempre precisou.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="transformation-item">
+            <div class="transformation-card">
+              <div class="transformation-content"><h3>Max</h3></div>
+              <div class="transformation-images">
+                <div class="before-after">
+                  <div class="image-container before">
+                    <img src="images/antes4.webp" alt="Max antes do resgate" loading="eager" decoding="async">
+                    <div class="image-label before-label">Antes</div>
+                  </div>
+                  <div class="image-container after">
+                    <img src="images/depois4.webp" alt="Max depois do resgate" loading="eager" decoding="async">
+                    <div class="image-label after-label">Depois</div>
+                  </div>
+                </div>
+              </div>
+              <div class="transformation-content">
+                <p>Max chegou a fundação precisando de cuidados especiais. Com toda dedicação e carinho da equipe, se recuperou completamente. Hoje é um gatinho preto super brincalhão e carinhoso, cheio de energia. Encontrou uma família que o adora e se encantou com seu jeito doce.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="transformation-item">
+            <div class="transformation-card">
+              <div class="transformation-content"><h3>Mel</h3></div>
+              <div class="transformation-images">
+                <div class="before-after">
+                  <div class="image-container before">
+                    <img src="images/antes5.webp" alt="Mel antes do resgate" loading="eager" decoding="async">
+                    <div class="image-label before-label">Antes</div>
+                  </div>
+                  <div class="image-container after">
+                    <img src="images/depois5.webp" alt="Mel depois do resgate" loading="eager" decoding="async">
+                    <div class="image-label after-label">Depois</div>
+                  </div>
+                </div>
+              </div>
+              <div class="transformation-content">
+                <p>Mel chegou ainda filhote a fundação, precisando de cuidados especiais. Com muito carinho e atenção constante, cresceu forte e saudável. Hoje é uma cadela cheia de vitalidade, super inteligente e dócil, que encontrou uma família amorosa onde é adorada.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="transformation-item">
+            <div class="transformation-card">
+              <div class="transformation-content"><h3>Simba</h3></div>
+              <div class="transformation-images">
+                <div class="before-after">
+                  <div class="image-container before">
+                    <img src="images/antes6.webp" alt="Simba antes do resgate" loading="eager" decoding="async">
+                    <div class="image-label before-label">Antes</div>
+                  </div>
+                  <div class="image-container after">
+                    <img src="images/depois6.webp" alt="Simba depois do resgate" loading="eager" decoding="async">
+                    <div class="image-label after-label">Depois</div>
+                  </div>
+                </div>
+              </div>
+              <div class="transformation-content">
+                <p>Simba chegou a fundação precisando de cuidados especiais. Com muito amor, atenção da equipe veterinária e dedicação, recuperou sua saúde e energia. Hoje é um cão forte, saudável e alegre que encontrou uma família que o ama e cuida.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="transformation-item">
+            <div class="transformation-card">
+              <div class="transformation-content"><h3>Theo</h3></div>
+              <div class="transformation-images">
+                <div class="before-after">
+                  <div class="image-container before">
+                    <img src="images/antes7.webp" alt="Theo antes do resgate" loading="eager" decoding="async">
+                    <div class="image-label before-label">Antes</div>
+                  </div>
+                  <div class="image-container after">
+                    <img src="images/depois7.jpg" alt="Theo depois do resgate" loading="eager" decoding="async">
+                    <div class="image-label after-label">Depois</div>
+                  </div>
+                </div>
+              </div>
+              <div class="transformation-content">
+                <p>Theo chegou a fundação precisando de cuidados especiais. Com toda dedicação da equipe, recebeu os cuidados necessários e recuperou sua vitalidade. Hoje é um cão super feliz e cheio de energia, que trouxe muita alegria para sua família com seu jeito carinhoso.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="transformation-controls">
+          <button class="transformation-btn prev" onclick="prevTransformation()">‹</button>
+          <div class="transformation-indicators" id="transformationIndicators"></div>
+          <button class="transformation-btn next" onclick="nextTransformation()">›</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Depoimentos -->
+    <section class="testimonials-section">
+      <div class="container">
+        <h2 class="section-title">Adotantes</h2>
+        <p class="testimonials-subtitle">Histórias reais de pessoas que fazem parte da família Refúgio da Tia Rê.</p>
+
+        <div class="testimonials-carousel" id="testimonialsCarousel">
+          <div class="testimonial-item active"><div class="testimonial-card"><div class="testimonial-image"><img src="images/1.webp" alt="Adotante 1" loading="eager" decoding="async"></div></div></div>
+          <div class="testimonial-item"><div class="testimonial-card"><div class="testimonial-image"><img src="images/2.webp" alt="Adotante 2" loading="eager" decoding="async"></div></div></div>
+          <div class="testimonial-item"><div class="testimonial-card"><div class="testimonial-image"><img src="images/3.webp" alt="Adotante 3" loading="eager" decoding="async"></div></div></div>
+          <div class="testimonial-item"><div class="testimonial-card"><div class="testimonial-image"><img src="images/4.webp" alt="Adotante 4" loading="eager" decoding="async"></div></div></div>
+          <div class="testimonial-item"><div class="testimonial-card"><div class="testimonial-image"><img src="images/5.webp" alt="Adotante 5" loading="eager" decoding="async"></div></div></div>
+          <div class="testimonial-item"><div class="testimonial-card"><div class="testimonial-image"><img src="images/6.webp" alt="Adotante 6" loading="eager" decoding="async"></div></div></div>
+        </div>
+
+        <div class="testimonial-controls">
+          <button class="testimonial-btn prev" onclick="prevTestimonial()">‹</button>
+          <div class="testimonial-indicators" id="testimonialIndicators"></div>
+          <button class="testimonial-btn next" onclick="nextTestimonial()">›</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Redes Sociais -->
+    <section class="social-section">
+      <div class="container">
+        <h2 class="section-title">Acompanhe a Fundação</h2>
+        <div class="social-links">
+          <a class="social-link" href="https://www.instagram.com/gritoanimal.fun" target="_blank" rel="noopener"><span class="si si-ig"></span>Instagram</a>
+          <a class="social-link" href="https://www.tiktok.com/@refugiodatiare?_t=ZM-8zcGA6PTOgI&_r=1" target="_blank" rel="noopener"><span class="si si-tk"></span>TikTok</a>
+          <a class="social-link" href="https://www.youtube.com/@Refugiodatiaregina" target="_blank" rel="noopener"><span class="si si-yt"></span>YouTube</a>
+          <a class="social-link" href="https://www.facebook.com/refugiodatiare/" target="_blank" rel="noopener"><span class="si si-fb"></span>Facebook</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Banner 3 -->
+    <section class="banner3-section">
+      <div class="banner3-container">
+        <img src="images/banner3.webp" alt="Banner Refúgio da Tia Rê" class="banner3-image" loading="lazy" decoding="async">
+      </div>
+    </section>
+
+    <!-- Call to Action Final -->
+    <section class="cta-section" style="padding: 50px 15px; text-align: center; background-color: #fff;">
+      <div class="container">
+        <h2 style="font-size: 24px; font-weight: 700; color: #111; margin-bottom: 15px;">Faça Parte Desta História</h2>
+        <p style="font-size: 15px; color: #555; margin-bottom: 30px; line-height: 1.5; max-width: 600px; margin-left: auto; margin-right: auto;">
+          Cada doação, cada compartilhamento, cada gesto de amor faz a diferença na vida de animais que dependem da nossa ajuda.
+        </p>
+        
+        <!-- Botão que rola a página de volta para a seção de valores -->
+        <button onclick="document.querySelector('.donation-goal-section').scrollIntoView({ behavior: 'smooth', block: 'center' });" style="background: #25d366; color: #fff; border: none; border-radius: 50px; width: 100%; max-width: 300px; padding: 18px; font-size: 18px; font-weight: 700; cursor: pointer; margin: 0 auto; display: block; box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3); transition: background 0.2s;">
+          QUERO AJUDAR ❤️
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="images/logo.webp" alt="Logo fundação da Tia Rê">
+          <h3>Refúgio da Tia Rê</h3>
+        </div>
+
+        <div class="footer-info">
+          <div class="footer-section">
+            <h4>Contato</h4>
+            </p>
+            <p><a href="mailto: doe@gritoanimal.fun" class="footer-link">suporte@regudiotiare.com</a></p>
+          </div>
+
+          <div class="footer-section">
+            <h4>Como Ajudar</h4>
+            <a href="#como-doar-pix" class="footer-link">Doações</a>
+            <a href="#" target="_blank" class="footer-link">Adoção Responsável</a>
+            <a href="#" target="_blank" class="footer-link">Voluntariado</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Refúgio da Tia Rê</p>
+        <p>Todos os direitos reservados.</p>
+        
+      </div>
+    </div>
+  </footer>
+
+  <script data-cfasync="false" src="js/email-decode.min.js"></script>
+  <script src="js/script.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const criticalImages = document.querySelectorAll('.header-logo-img, .banner-image');
+      criticalImages.forEach(img => {
+        if (img.complete) img.classList.add('loaded');
+        else {
+          img.addEventListener('load', function () { this.classList.add('loaded'); });
+          img.addEventListener('error', function () { this.style.display = 'none'; });
+        }
+      });
+
+      const lazyImages = document.querySelectorAll('img[loading="lazy"]');
+      if ('IntersectionObserver' in window) {
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('loaded');
+              observer.unobserve(entry.target);
+            }
+          });
+        });
+        lazyImages.forEach(img => imageObserver.observe(img));
+      }
+
+      const pixImage = document.querySelector('.pix-qr');
+      if (pixImage) {
+        pixImage.style.maxWidth = '300px';
+        pixImage.style.width = 'auto';
+        pixImage.style.height = 'auto';
+        pixImage.style.display = 'block';
+        pixImage.style.margin = '0 auto';
+        pixImage.style.objectFit = 'contain';
+        pixImage.style.objectPosition = 'center';
+
+        pixImage.addEventListener('load', function () {
+          this.style.visibility = 'visible';
+          this.classList.add('loaded');
+        });
+
+        setTimeout(function () {
+          if (pixImage.style.visibility !== 'visible') {
+            pixImage.style.visibility = 'visible';
+          }
+        }, 1000);
+      }
+    });
+  </script>
+
+ <!-- Modal de Pagamento (Fluxo Completo) -->
+    <div class="modal-overlay" id="paymentModal">
+      <div class="modal-box">
+        
+        <!-- Cabeçalho com a sua Logo Centralizada -->
+        <div class="modal-header" style="display: flex; align-items: center; position: relative;">
+          <svg style="display: block; margin: 0 auto;" xmlns="http://www.w3.org/2000/svg" width="125" height="32" fill="none" viewBox="0 0 32 32"><path fill="#24CA68" fill-rule="evenodd" d="M5.11 0h24.923a5.18 5.18 0 0 1 3.609 1.471 4.97 4.97 0 0 1 1.5 3.537v18.16q.001.119-.004.232V32l-6.636-3.82H5.11a5.18 5.18 0 0 1-3.609-1.472A4.97 4.97 0 0 1 0 23.171V5.011a4.97 4.97 0 0 1 1.501-3.538A5.18 5.18 0 0 1 5.111.002zm12.655 17.262q-.285 0-.566.037l-4.695-7.981a3.12 3.12 0 0 0-.402-3.833 3.26 3.26 0 0 0-1.83-.956c-.702-.114-1.421.002-2.048.33A3.2 3.2 0 0 0 6.8 6.338a3.1 3.1 0 0 0-.213 2.023 3.16 3.16 0 0 0 1.084 1.734 3.27 3.27 0 0 0 1.935.733l4.78 8.117a4.022 4.022 0 0 0-.34 4.25c.348.671.877 1.235 1.53 1.63a4.237 4.237 0 0 0 4.35.02 4.1 4.1 0 0 0 1.546-1.617 4.02 4.02 0 0 0-.301-4.253l4.797-8.142c.71-.03 1.39-.288 1.935-.734a3.16 3.16 0 0 0 1.082-1.734 3.1 3.1 0 0 0-.214-2.022 3.2 3.2 0 0 0-1.423-1.48 3.3 3.3 0 0 0-2.047-.328c-.7.113-1.343.45-1.83.956a3.12 3.12 0 0 0-.4 3.831l-4.703 7.981q-.299-.045-.602-.045z" clip-rule="evenodd"></path></svg>
+          <button class="modal-close" onclick="fecharModal()" style="position: absolute; right: 15px; top: 15px; background: none; border: none; padding: 0; cursor: pointer;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+
+        <!-- PASSO 1: CONFIRMAÇÃO E MÉTODO -->
+        <div id="step1">
+          <div class="euro-circle">€</div>
+          <h3 class="modal-title">Confirmar Doação</h3>
+          <p class="modal-subtitle">Selecionou o valor de:</p>
+          
+          <div class="value-box" id="modalSelectedValue">
+            € 15,00
+          </div>
+
+          <div class="payment-methods-title">Método de pagamento:</div>
+          
+          <div class="payment-methods-grid">
+            <!-- Card MB WAY (Ativo por Padrão) -->
+            <div class="payment-card active" onclick="selecionarMetodo(this)" data-method="mbway">
+              <div class="check-icon-svg">
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </div>
+              <div class="payment-card-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#25d366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+              </div>
+              <div class="payment-card-title">MB WAY</div>
+              <div class="payment-card-desc">Pagamento instantâneo via app</div>
+            </div>
+
+            <!-- Card Multibanco -->
+            <div class="payment-card" onclick="selecionarMetodo(this)" data-method="multibanco">
+              <div class="check-icon-svg">
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </div>
+              <div class="payment-card-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4a659e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2" ry="2"></rect><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+              </div>
+              <div class="payment-card-title">Multibanco</div>
+              <div class="payment-card-desc">Referência para ATM ou Homebanking</div>
+            </div>
+          </div>
+
+          <!-- Campos do pagador -->
+          <div style="margin-top:16px;display:flex;flex-direction:column;gap:8px;">
+            <input type="text" id="payerName" placeholder="O seu nome" autocomplete="name"
+              style="width:100%;padding:10px 12px;border:1px solid #ddd;border-radius:8px;font-size:14px;font-family:inherit;box-sizing:border-box;outline:none;">
+            <input type="tel" id="payerPhone" placeholder="Telemóvel (ex: 912345678)" autocomplete="tel"
+              style="width:100%;padding:10px 12px;border:1px solid #ddd;border-radius:8px;font-size:14px;font-family:inherit;box-sizing:border-box;outline:none;">
+            <p style="font-size:11px;color:#999;margin:0;">Número português sem indicativo. Usado apenas para o pagamento.</p>
+          </div>
+
+          <button class="btn-continue" onclick="iniciarProcessamento()">
+            Continuar
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </button>
+
+          <div class="modal-footer-txt">
+            Os seus dados são tratados de forma anónima.
+            <div class="secure-line">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+              Pagamento seguro via MB WAY / Multibanco
+            </div>
+          </div>
+        </div>
+
+        <!-- PASSO 2: LOADING (PROCESSAR) -->
+        <div id="step2">
+          <div class="spinner"></div>
+          <h3>A processar...</h3>
+          <p>A conectar ao sistema de pagamento.</p>
+        </div>
+
+        <!-- PASSO 3: RESULTADO DO PAGAMENTO (dinâmico) -->
+        <div id="step3" style="display:none;">
+
+          <!-- MB WAY -->
+          <div id="step3-mbway" style="display:none;text-align:center;padding:8px 0 4px;">
+            <div style="font-size:52px;margin-bottom:10px;">📱</div>
+            <h3 class="modal-title" style="margin-bottom:10px;">Notificação enviada!</h3>
+            <p style="color:#555;font-size:14px;line-height:1.6;margin-bottom:6px;">
+              Abra o app <strong>MB WAY</strong> no seu telemóvel<br>e aceite o pagamento de<br>
+              <strong id="mbwayAmountDisplay" style="color:#25d366;font-size:20px;"></strong>
+            </p>
+            <p style="color:#aaa;font-size:12px;">A confirmação é automática após aprovação.</p>
+          </div>
+
+          <!-- Multibanco -->
+          <div id="step3-multibanco" style="display:none;">
+            <h3 class="modal-title" style="margin-bottom:20px;">Dados para Pagamento</h3>
+            <div class="dados-box">
+              <div class="dado-row">
+                <span class="dado-label">Entidade</span>
+                <span class="dado-valor" id="mbEntity">—</span>
+              </div>
+              <div class="dado-row">
+                <span class="dado-label">Referência</span>
+                <span class="dado-valor" id="mbReference">—</span>
+              </div>
+              <div class="dado-row">
+                <span class="dado-label">Montante</span>
+                <span class="dado-valor" id="mbAmount">—</span>
+              </div>
+              <div class="dado-row">
+                <span class="dado-label">Válido até</span>
+                <span class="dado-valor" id="mbExpiry">—</span>
+              </div>
+            </div>
+            <button class="btn-copy" onclick="copiarReferencia()">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              Copiar Referência
+            </button>
+          </div>
+
+          <div class="step3-footer">
+            Obrigado pela sua doação! ❤️
+            <a onclick="fecharModal()" style="cursor:pointer;">Fechar</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+</body></html>
